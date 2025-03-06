@@ -12,15 +12,17 @@ import { fadeIn } from "../../framerMotion/variants";
 import { IoLogoPython } from "react-icons/io5";
 import { SiSelenium } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
-// import powerBi from "../../assets/powerBi.svg"
+import { SiPandas } from "react-icons/si";
+import { RiFileExcel2Fill } from "react-icons/ri";
+import { IoLogoTableau } from "react-icons/io5";
 
 
 
 
 const skills = [
   {
-    skill: "HTML",
-    icon: FaHtml5,
+    skill: "Tableau",
+    icon: IoLogoTableau,
   },
   {
     skill: "CSS",
@@ -40,17 +42,17 @@ const skills = [
     icon: SiMysql,
   },
   
-  // {
-    // skill: "Power BI",
-    // // icon: "public/assets/powerBi.svg",
-  // },
   {
-    skill: "NextJS",
-    icon: SiNextdotjs,
+    skill: "MS-Excel",
+    icon: RiFileExcel2Fill,
   },
   {
     skill: "TailwindCSS",
     icon: RiTailwindCssFill,
+  },
+  {
+    skill: "pandas",
+    icon: SiPandas,
   },
 ];
 
