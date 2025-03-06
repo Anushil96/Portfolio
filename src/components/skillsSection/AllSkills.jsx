@@ -15,6 +15,7 @@ import { SiMysql } from "react-icons/si";
 import { SiPandas } from "react-icons/si";
 import { RiFileExcel2Fill } from "react-icons/ri";
 import { IoLogoTableau } from "react-icons/io5";
+import { LiaGithub } from "react-icons/lia";
 
 
 
@@ -47,8 +48,8 @@ const skills = [
     icon: RiFileExcel2Fill,
   },
   {
-    skill: "TailwindCSS",
-    icon: RiTailwindCssFill,
+    skill: "Git Hub",
+    icon: LiaGithub,
   },
   {
     skill: "pandas",
